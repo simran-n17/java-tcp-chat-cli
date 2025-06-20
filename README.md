@@ -71,8 +71,6 @@ Each client will be prompted to enter a **unique username** before joining the c
 
 * All chat messages are saved in `chatlog.txt` on the server side.
 * Example log entry:
-
-```
 ![Chat running in VS Code terminal](Screenshots/Screenshot2.png)
 ![Chat running in VS Code terminal](Screenshots/Screenshot3.png)
 ![Chat running in VS Code terminal](Screenshots/Screenshot4.png)
