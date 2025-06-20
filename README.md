@@ -1,8 +1,3 @@
-Here's a **complete and professional `README.md`** file for your **Java TCP Chat Application with CLI Interface**:
-
----
-
-```markdown
 # ⚡ Java TCP Chat CLI
 
 A lightweight command-line chat application built in Java using TCP sockets. This project demonstrates real-time communication between a server and multiple clients using threads.
@@ -95,11 +90,6 @@ Each client will be prompted to enter a **unique username** before joining the c
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 🌟 Future Improvements
 
@@ -110,10 +100,3 @@ This project is licensed under the MIT License.
 * Server admin commands (e.g. kick/ban)
 
 ---
-
-```
-
----
-
-Let me know if you'd like a **badge version**, GitHub Pages setup, or a version with screenshots or GIFs!
-```
