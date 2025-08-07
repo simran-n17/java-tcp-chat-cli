@@ -78,16 +78,6 @@ Each client will be prompted to enter a **unique username** before joining the c
 ![Chat running in VS Code terminal](Screenshots/Screenshot3.png)
 ![Chat running in VS Code terminal](Screenshots/Screenshot4.png)
 ![Chat running in VS Code terminal](Screenshots/Screenshot5.png)
-```
-
-* Example log entries:
-
-![Chat log 1](Screenshots/Screenshot2.png)
-![Chat log 2](Screenshots/Screenshot3.png)
-![Chat log 3](Screenshots/Screenshot4.png)
-![Chat log 4](Screenshots/Screenshot5.png)
-
-
 ---
 
 ## 🛠️ Technologies Used
@@ -131,7 +121,5 @@ End Connection  ![End Connection](Screenshots/Screenshot7.png)
 * Emoji and markdown support
 * Server admin commands (e.g. kick/ban)
 
-
----
 
 
