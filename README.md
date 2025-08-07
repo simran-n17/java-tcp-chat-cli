@@ -64,18 +64,29 @@ Each client will be prompted to enter a **unique username** before joining the c
 ---
 
 ## 📌 Sample Usage
+
 ![Chat running in VS Code terminal](Screenshots/Screenshot1.png)
+
 ---
 
 ## 📄 Log File
 
 * All chat messages are saved in `chatlog.txt` on the server side.
+
 * Example log entry:
 ![Chat running in VS Code terminal](Screenshots/Screenshot2.png)
 ![Chat running in VS Code terminal](Screenshots/Screenshot3.png)
 ![Chat running in VS Code terminal](Screenshots/Screenshot4.png)
 ![Chat running in VS Code terminal](Screenshots/Screenshot5.png)
 ```
+
+* Example log entries:
+
+![Chat log 1](Screenshots/Screenshot2.png)
+![Chat log 2](Screenshots/Screenshot3.png)
+![Chat log 3](Screenshots/Screenshot4.png)
+![Chat log 4](Screenshots/Screenshot5.png)
+
 
 ---
 
@@ -85,6 +96,29 @@ Each client will be prompted to enter a **unique username** before joining the c
 * Java Sockets (`java.net`)
 * Multithreading (`java.lang.Thread`)
 * File I/O for logging
+
+
+
+## 🌐 Network Analysis with Wireshark
+
+To enhance visibility into TCP communications and align with BT's job description, Wireshark was used for real-time packet inspection and analysis.
+
+### 🔍 Wireshark Integration Highlights:
+
+* **Port-based Filtering:** Used `tcp.port == 12345` filter to monitor all chat traffic.
+* **Live Packet Capture:** Captured and analyzed SYN, ACK, PSH flags during connection setup and message transmission.
+* **Message Inspection:** Verified raw TCP payloads to ensure correct delivery and structure of chat messages.
+* **Multi-client Traffic Analysis:** Observed multiple client sessions in parallel to study real-time concurrent communication.
+
+![Wireshark Integration](Screenshots/Screenshot6.png)
+End Connection  ![End Connection](Screenshots/Screenshot7.png)
+
+* 
+### 💡 Why It Matters:
+
+* Demonstrates practical skills in **network packet tracing**, **protocol-level debugging**, and **traffic visualization**.
+* Helps validate socket programming logic and **multithreaded server behavior**.
+* Adds a critical infrastructure skill relevant to roles involving **network monitoring**, **security**, or **proxy implementations**.
 
 ---
 
@@ -97,4 +131,8 @@ Each client will be prompted to enter a **unique username** before joining the c
 * Emoji and markdown support
 * Server admin commands (e.g. kick/ban)
 
+
 ---
+
+---
+
